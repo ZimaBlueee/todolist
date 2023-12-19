@@ -299,7 +299,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>待办</title>
+        <title>随手记待办</title>
         <meta name="description" content="a quick to-do panel management tool" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
