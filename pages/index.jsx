@@ -301,7 +301,7 @@ export default function Home() {
       <Head>
         <title>随手记待办</title>
         <meta name="description" content="a quick to-do panel management tool" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/todo.png" />
       </Head>
 
       {/* canvas background */}
