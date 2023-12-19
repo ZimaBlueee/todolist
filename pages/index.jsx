@@ -301,7 +301,7 @@ export default function Home() {
       <Head>
         <title>赛博便签</title>
         <meta name="description" content="a quick to-do panel management tool" />
-        <link rel="icon" href="/todo.png" />
+        <link rel="icon" href="/logo.png" />
       </Head>
 
       {/* canvas background */}
