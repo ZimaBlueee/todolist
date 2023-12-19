@@ -10,11 +10,11 @@ export const defaultTodo = [
     },
     size: {
       width: 379,
-      height: 399,
+      height: 340,
     },
     id: "5111941277-31218-4030-81129-2651543101115215",
     zIndex: 1000,
-    text: "todolist It is a to-do record panel,Development of Nextjs based on React.\n\nClick and drag anywhere with your mouse to create a to-do item. All the to-do items can be dragged at will, and all the data will be stored locally. It is a pure front-end to-do panel.\n\nPress Alt+C to actively switch themes, otherwise we will automatically match according to the system.\n\nPress Alt+R to delete all your to-do items at once\n\n Todolist is free and completely open-source. If you find a bug or have a suggestion feel free to file an issue on Github. \n\nhttps://github.com/longyanjiang/todolist ",
+    text: "在空白处【点击并拖拽】，即可快速创建代办事项.\n\n点击左上角减号可以删除待办.\n\n点击右下角可拖动放大缩小面板.\n\n所有数据都会存储在您的本地，无需连接网络\n- 不会上传任何信息\n- 不会泄露任何隐私\n\n# Alt+C 主动切换主题.\n# Alt+R 删除所有待办事项.\n\n\n更多有意思的项目请访问：\nhttps://chenjian.xyz",
   },
 ];
 

@@ -216,7 +216,7 @@ export default function Home() {
   /* 删除 */
   function handlerDelManifest({id},e){
     e.stopPropagation()
-    const bool =  window.confirm("Are you sure you want to remove this memo?")
+    const bool =  window.confirm("确认删除")
     if(!bool) return
     const updateData = manifestList.filter( t=> t.id !== id)
     setManifestList(updateData)
