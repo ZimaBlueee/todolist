@@ -326,7 +326,7 @@ export default function Home() {
               <span className={styles.close}  onClick={(e) => handlerDelManifest(item,e)}>一</span>
               <span className={styles.drag}  style={{ cursor: isDragDown ? 'grabbing' : 'grab' }} onMouseDown={(e) => hanlderManifestMouseDown(item, e)}></span>
             </div>
-            <textarea className={styles.input} style={{ cursor: isDragDown ? 'grabbing' : 'text' }}  onInput={ (e) => hanlderEditManifest(e, item)} value={item.text} placeholder="Try adding a to-do"></textarea>
+            <textarea className={styles.input} style={{ cursor: isDragDown ? 'grabbing' : 'text' }}  onInput={ (e) => hanlderEditManifest(e, item)} value={item.text} placeholder="开始记录待办吧！"></textarea>
             <div className={styles.resize} onMouseDown={ (e) => handlerResizeManfest(e,item)}></div>
           </div>
         ))}
