@@ -91,7 +91,7 @@ export default function Home() {
       return toggleTheme();
     }
     if ((e.code === "KeyR" || e.keyCode === 82) && e.altKey) {
-      const bool = window.confirm('Are you sure you want to remove all to dos')
+      const bool = window.confirm('确定删除所有待办吗？')
       if(!bool) return;
       setManifestList([])
       setStorageItem(TODOLIST, [])
@@ -216,7 +216,7 @@ export default function Home() {
   /* 删除 */
   function handlerDelManifest({id},e){
     e.stopPropagation()
-    const bool =  window.confirm("确认删除")
+    const bool =  window.confirm("确定删除？")
     if(!bool) return
     const updateData = manifestList.filter( t=> t.id !== id)
     setManifestList(updateData)
@@ -299,7 +299,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Todolist panel</title>
+        <title>待办</title>
         <meta name="description" content="a quick to-do panel management tool" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
